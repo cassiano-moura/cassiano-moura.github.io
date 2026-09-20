@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="restartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <filter id="greenGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#10B981" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <polygon points="60,6 108,33 108,87 60,114 12,87 12,33" fill="url(#restartGrad)" filter="url(#greenGlow)"/>
+  <polygon points="60,10 104,35 104,85 60,110 16,85 16,35" fill="#0A1813"/>
+  <polygon points="60,14 100,37 100,83 60,106 20,83 20,37" fill="none" stroke="#10B981" stroke-width="1.2" stroke-dasharray="3,2"/>
+  
+  <!-- Refresh / Restart Arrow Icon -->
+  <path d="M60 38 A 16 16 0 1 1 45 52" fill="none" stroke="#34D399" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="40,54 48,54 48,46" fill="#34D399"/>
+
+  <!-- Text -->
+  <text x="60" y="74" text-anchor="middle" fill="#34D399" font-family="Inter, sans-serif" font-size="8" font-weight="900" letter-spacing="1">AWS re/Start</text>
+  <text x="60" y="86" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="8" font-weight="800">GRADUATE</text>
+  <text x="60" y="97" text-anchor="middle" fill="#A7F3D0" font-family="Inter, sans-serif" font-size="6" font-weight="600">ESCOLA DA NUVEM</text>
+  <text x="60" y="105" text-anchor="middle" fill="#6EE7B7" font-family="Inter, sans-serif" font-size="5" font-weight="600">&amp; FORMAÇÃO 5.0</text>
+</svg>

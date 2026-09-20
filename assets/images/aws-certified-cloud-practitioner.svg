@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="awsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9900"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+    <linearGradient id="awsInner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#FF9900" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Hexagon Outer Border -->
+  <polygon points="60,6 108,33 108,87 60,114 12,87 12,33" fill="url(#awsGrad)" filter="url(#glow)"/>
+  <!-- Hexagon Inner -->
+  <polygon points="60,10 104,35 104,85 60,110 16,85 16,35" fill="url(#awsInner)"/>
+  <!-- Inner ring -->
+  <polygon points="60,14 100,37 100,83 60,106 20,83 20,37" fill="none" stroke="#FF9900" stroke-width="1.5" stroke-dasharray="3,2"/>
+  
+  <!-- Content -->
+  <text x="60" y="32" text-anchor="middle" fill="#FF9900" font-family="Inter, sans-serif" font-size="7.5" font-weight="900" letter-spacing="0.5">AWS CERTIFIED</text>
+  
+  <!-- Cloud Icon -->
+  <path d="M47 56 A 9 9 0 0 1 65 52 A 11 11 0 0 1 77 62 A 7 7 0 0 1 73 72 L 47 72 A 8 8 0 0 1 47 56 Z" fill="#FF9900"/>
+  
+  <!-- Text Practitioner -->
+  <text x="60" y="85" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="8.5" font-weight="800">CLOUD</text>
+  <text x="60" y="95" text-anchor="middle" fill="#FF9900" font-family="Inter, sans-serif" font-size="7" font-weight="800" letter-spacing="0.5">PRACTITIONER</text>
+  <text x="60" y="103" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="5" font-weight="600">CLF-C02</text>
+</svg>
