@@ -72,6 +72,7 @@ const translations = {
     certsTitle: "Official Certifications & Industry Badges",
     certsDesc: "Verified industry credentials confirming technical proficiency in cloud computing, security, database platforms, and agile delivery.",
     btnVerify: "Verify Credential ↗",
+    btnDiploma: "Diploma 270h ↗",
 
     cert1Title: "AWS Certified Cloud Practitioner",
     cert1Issuer: "Amazon Web Services (CLF-C02)",
@@ -86,12 +87,12 @@ const translations = {
     cert3Desc: "Proficiency in enterprise relational database architectures, autonomous data management, and cloud storage.",
 
     cert4Title: "MySQL HeatWave Implementation",
-    cert4Issuer: "Oracle Certified Specialist",
+    cert4Issuer: "Oracle Certified Associate",
     cert4Desc: "Architectural and implementation mastery of high-performance analytics and transactional MySQL clusters.",
 
     cert5Title: "AWS re/Start & Formação AWS 5.0",
     cert5Issuer: "Escola da Nuvem & Practical Labs",
-    cert5Desc: "Hands-on cloud engineering training focused on Linux, networking, security, troubleshooting, and AWS support.",
+    cert5Desc: "270-hour intensive engineering training (AWS re/Start, AI & No-Code). Hands-on Linux, networking, security, troubleshooting, and AWS support.",
 
     cert6Title: "Associate Data Analyst & SQL",
     cert6Issuer: "DataCamp & HackerRank",
@@ -241,6 +242,7 @@ const translations = {
     certsTitle: "Certificações Oficiais & Badges da Indústria",
     certsDesc: "Credenciais oficiais que comprovam capacidade técnica em computação em nuvem, cibersegurança, bancos de dados e metodologias ágeis.",
     btnVerify: "Verificar Credencial ↗",
+    btnDiploma: "Diploma 270h ↗",
 
     cert1Title: "AWS Certified Cloud Practitioner",
     cert1Issuer: "Amazon Web Services (CLF-C02)",
@@ -255,12 +257,12 @@ const translations = {
     cert3Desc: "Domínio de arquiteturas corporativas de banco de dados relacional, gerenciamento autônomo e armazenamento em nuvem.",
 
     cert4Title: "MySQL HeatWave Implementation",
-    cert4Issuer: "Oracle Certified Specialist",
+    cert4Issuer: "Oracle Certified Associate",
     cert4Desc: "Especialização na arquitetura e implementação de clusters MySQL de altíssima performance para cargas transacionais e analíticas.",
 
     cert5Title: "AWS re/Start & Formação AWS 5.0",
     cert5Issuer: "Escola da Nuvem & Labs Práticos",
-    cert5Desc: "Formação intensiva em engenharia de nuvem, Linux, redes, segurança, automação e resolução de problemas na AWS.",
+    cert5Desc: "Formação intensiva de 270 horas (AWS re/Start, Inteligência Artificial e No-Code). Labs práticos em Linux, redes, segurança e suporte AWS.",
 
     cert6Title: "Associate Data Analyst & SQL",
     cert6Issuer: "DataCamp & HackerRank",
@@ -410,6 +412,7 @@ const translations = {
     certsTitle: "Certificaciones Oficiales & Badges de la Industria",
     certsDesc: "Credenciales oficiales que validan competencia técnica en computación en la nube, ciberseguridad, bases de datos y gestión ágil.",
     btnVerify: "Verificar Credencial ↗",
+    btnDiploma: "Diploma 270h ↗",
 
     cert1Title: "AWS Certified Cloud Practitioner",
     cert1Issuer: "Amazon Web Services (CLF-C02)",
@@ -424,12 +427,12 @@ const translations = {
     cert3Desc: "Dominio de arquitecturas relacionales enterprise, gestión autónoma de datos y almacenamiento cloud.",
 
     cert4Title: "MySQL HeatWave Implementation",
-    cert4Issuer: "Oracle Certified Specialist",
+    cert4Issuer: "Oracle Certified Associate",
     cert4Desc: "Especialización en arquitectura e implementación de clusters analíticos y transaccionales MySQL de alto rendimiento.",
 
     cert5Title: "AWS re/Start & Formación AWS 5.0",
     cert5Issuer: "Escola da Nuvem & Labs Prácticos",
-    cert5Desc: "Entrenamiento intensivo en ingeniería cloud, Linux, redes, seguridad, automatización y soporte en AWS.",
+    cert5Desc: "Capacitación intensiva de 270 horas (AWS re/Start, Inteligencia Artificial y No-Code). Prácticas en Linux, redes, seguridad y soporte AWS.",
 
     cert6Title: "Associate Data Analyst & SQL",
     cert6Issuer: "DataCamp & HackerRank",
