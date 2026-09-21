@@ -71,8 +71,20 @@ const translations = {
     certsTag: "Validated Credentials",
     certsTitle: "Official Certifications & Industry Badges",
     certsDesc: "Verified industry credentials confirming technical proficiency in cloud computing, security, database platforms, and agile delivery.",
+    certTabAll: "All Credentials (9)",
+    certTabCloud: "Cloud & Security",
+    certTabDb: "Databases & SQL",
+    certTabAgile: "Agile, Jira & AI",
     btnVerify: "Verify Credential ↗",
     btnDiploma: "Diploma 270h ↗",
+    btnCertificate: "View Certificate ↗",
+    certTypeExam: "Certification Exam",
+    certTypeBadge: "Official Badge",
+    certTypeProgram: "270h Program",
+    certTypeAgile: "Atlassian & Jira",
+    certTypeAi: "Microsoft & AI",
+    certTypePmi: "PMI Rep #4101",
+    certTypeData: "Data Analytics",
 
     cert1Title: "AWS Certified Cloud Practitioner",
     cert1Issuer: "Amazon Web Services (CLF-C02)",
@@ -97,6 +109,18 @@ const translations = {
     cert6Title: "Associate Data Analyst & SQL",
     cert6Issuer: "DataCamp & HackerRank",
     cert6Desc: "Advanced relational query creation, schema diagnostics, data manipulation, and analytical problem-solving.",
+
+    cert7Title: "Atlassian Agile Project Management",
+    cert7Issuer: "Atlassian & LinkedIn Learning",
+    cert7Desc: "Hands-on Jira configuration, sprint workflows, backlog grooming, SLA adherence, and agile team escalation management.",
+
+    cert8Title: "Generative AI Productivity Skills",
+    cert8Issuer: "Microsoft & LinkedIn Learning",
+    cert8Desc: "Application of generative AI models to business productivity, automated script generation, troubleshooting, and root-cause analysis.",
+
+    cert9Title: "Agile Foundations (PMI Rep #4101)",
+    cert9Issuer: "Project Management Institute (PMI)",
+    cert9Desc: "Core agile values, Scrum/Kanban ceremonies, iterative delivery cycles, and cross-functional enterprise collaboration.",
 
     // Projects Section
     projectsTag: "Practical Implementations",
@@ -241,8 +265,20 @@ const translations = {
     certsTag: "Credenciais Validadas",
     certsTitle: "Certificações Oficiais & Badges da Indústria",
     certsDesc: "Credenciais oficiais que comprovam capacidade técnica em computação em nuvem, cibersegurança, bancos de dados e metodologias ágeis.",
+    certTabAll: "Todas as Credenciais (9)",
+    certTabCloud: "Cloud & Segurança",
+    certTabDb: "Bancos de Dados & SQL",
+    certTabAgile: "Ágil, Jira & IA",
     btnVerify: "Verificar Credencial ↗",
     btnDiploma: "Diploma 270h ↗",
+    btnCertificate: "Ver Certificado ↗",
+    certTypeExam: "Exame de Certificação",
+    certTypeBadge: "Badge Oficial",
+    certTypeProgram: "Formação 270h",
+    certTypeAgile: "Atlassian & Jira",
+    certTypeAi: "Microsoft & IA",
+    certTypePmi: "PMI Rep #4101",
+    certTypeData: "Análise de Dados",
 
     cert1Title: "AWS Certified Cloud Practitioner",
     cert1Issuer: "Amazon Web Services (CLF-C02)",
@@ -267,6 +303,18 @@ const translations = {
     cert6Title: "Associate Data Analyst & SQL",
     cert6Issuer: "DataCamp & HackerRank",
     cert6Desc: "Criação de consultas relacionais avançadas, diagnósticos de integridade de dados e resolução analítica de problemas.",
+
+    cert7Title: "Atlassian Agile Project Management",
+    cert7Issuer: "Atlassian & LinkedIn Learning",
+    cert7Desc: "Prática em configuração do Jira, fluxos de sprint, gestão de backlog, controle de SLAs e escalonamento entre times ágeis.",
+
+    cert8Title: "Generative AI Productivity Skills",
+    cert8Issuer: "Microsoft & LinkedIn Learning",
+    cert8Desc: "Aplicação de modelos de IA generativa para produtividade profissional, criação de scripts de automação, troubleshooting e RCA.",
+
+    cert9Title: "Agile Foundations (PMI Rep #4101)",
+    cert9Issuer: "Project Management Institute (PMI)",
+    cert9Desc: "Fundamentos ágeis, cerimônias de Scrum/Kanban, entregas iterativas e governança colaborativa corporativa.",
 
     // Projects Section
     projectsTag: "Projetos Práticos",
@@ -397,6 +445,7 @@ const translations = {
     p1F1: "Arquitectura Core AWS: EC2, VPC, S3, IAM, CloudWatch, Route 53, RDS, Lambda",
     p1F2: "Infraestructura como Código (IaC) con Terraform para entornos reproducibles",
     p1F3: "Administración Linux (Ubuntu, Debian, RHEL) y contenedores Docker",
+    p1F3: "Administração Linux (Ubuntu, Debian, RHEL) e conteinerização Docker",
     p1F4: "Observabilidad, métricas de monitorización, alarmas y auto-scaling",
 
     p2Title: "Soporte Enterprise y Aplicaciones",
@@ -411,8 +460,20 @@ const translations = {
     certsTag: "Credenciales Validadas",
     certsTitle: "Certificaciones Oficiales & Badges de la Industria",
     certsDesc: "Credenciales oficiales que validan competencia técnica en computación en la nube, ciberseguridad, bases de datos y gestión ágil.",
+    certTabAll: "Todas las Credenciales (9)",
+    certTabCloud: "Cloud y Seguridad",
+    certTabDb: "Bases de Datos y SQL",
+    certTabAgile: "Ágil, Jira e IA",
     btnVerify: "Verificar Credencial ↗",
     btnDiploma: "Diploma 270h ↗",
+    btnCertificate: "Ver Certificado ↗",
+    certTypeExam: "Exame de Certificación",
+    certTypeBadge: "Badge Oficial",
+    certTypeProgram: "Programa 270h",
+    certTypeAgile: "Atlassian y Jira",
+    certTypeAi: "Microsoft e IA",
+    certTypePmi: "PMI Rep #4101",
+    certTypeData: "Análisis de Datos",
 
     cert1Title: "AWS Certified Cloud Practitioner",
     cert1Issuer: "Amazon Web Services (CLF-C02)",
@@ -430,13 +491,25 @@ const translations = {
     cert4Issuer: "Oracle Certified Associate",
     cert4Desc: "Especialización en arquitectura e implementación de clusters analíticos y transaccionales MySQL de alto rendimiento.",
 
-    cert5Title: "AWS re/Start & Formación AWS 5.0",
+    cert5Title: "AWS re/Start & Formação AWS 5.0",
     cert5Issuer: "Escola da Nuvem & Labs Prácticos",
     cert5Desc: "Capacitación intensiva de 270 horas (AWS re/Start, Inteligencia Artificial y No-Code). Prácticas en Linux, redes, seguridad y soporte AWS.",
 
     cert6Title: "Associate Data Analyst & SQL",
     cert6Issuer: "DataCamp & HackerRank",
     cert6Desc: "Creación de consultas relacionales complejas, diagnóstico de esquemas y resolución analítica de problemas.",
+
+    cert7Title: "Atlassian Agile Project Management",
+    cert7Issuer: "Atlassian & LinkedIn Learning",
+    cert7Desc: "Práctica en configuración de Jira, flujos de sprint, gestión de backlog, cumplimiento de SLAs y escalado de incidencias.",
+
+    cert8Title: "Generative AI Productivity Skills",
+    cert8Issuer: "Microsoft & LinkedIn Learning",
+    cert8Desc: "Aplicación de modelos de IA generativa para productividad empresarial, automatización de scripts, troubleshooting y RCA.",
+
+    cert9Title: "Agile Foundations (PMI Rep #4101)",
+    cert9Issuer: "Project Management Institute (PMI)",
+    cert9Desc: "Fundamentos ágeis, ceremonias de Scrum/Kanban, ciclos de entrega iterativos y colaboración técnica en entornos enterprise.",
 
     // Projects Section
     projectsTag: "Proyectos Prácticos",

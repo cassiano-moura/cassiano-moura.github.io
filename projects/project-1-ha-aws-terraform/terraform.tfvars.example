@@ -1,0 +1,29 @@
+# ==============================================================================
+# EXAMPLE TERRAFORM VARIABLES (Customize for your deployment)
+# Project: Multi-Tier Resilient AWS Architecture
+# Engineer: Cassiano Moura
+# ==============================================================================
+
+aws_region   = "us-east-1"
+project_name = "enterprise-ha-platform"
+environment  = "production"
+
+# Network
+vpc_cidr                 = "10.0.0.0/16"
+availability_zones       = ["us-east-1a", "us-east-1b"]
+public_subnet_cidrs      = ["10.0.1.0/24", "10.0.2.0/24"]
+private_app_subnet_cidrs = ["10.0.11.0/24", "10.0.12.0/24"]
+private_db_subnet_cidrs  = ["10.0.21.0/24", "10.0.22.0/24"]
+
+# Compute (Free Tier Friendly)
+instance_type        = "t3.micro"
+asg_min_size         = 2
+asg_max_size         = 4
+asg_desired_capacity = 2
+
+# Database (Free Tier Friendly)
+db_instance_class    = "db.t3.micro"
+db_allocated_storage = 20
+db_name              = "app_production_db"
+db_username          = "admin_user"
+db_password          = "YourSuperSecurePassword2026!"

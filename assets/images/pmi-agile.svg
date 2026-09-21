@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pmiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E20074"/>
+      <stop offset="50%" stop-color="#7B2CBF"/>
+      <stop offset="100%" stop-color="#004B87"/>
+    </linearGradient>
+    <filter id="pmiGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#7B2CBF" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <!-- Outer circle -->
+  <circle cx="60" cy="60" r="54" fill="#0A1120" filter="url(#pmiGlow)" stroke="#7B2CBF" stroke-width="2"/>
+  <circle cx="60" cy="60" r="48" fill="#0D1526"/>
+  <circle cx="60" cy="60" r="45" fill="none" stroke="url(#pmiGrad)" stroke-width="1.5" stroke-dasharray="2,2"/>
+  
+  <!-- PMI geometric seal emblem -->
+  <polygon points="60,26 73,34 73,50 60,58 47,50 47,34" fill="none" stroke="#E20074" stroke-width="2.5"/>
+  <circle cx="60" cy="42" r="5" fill="#7B2CBF"/>
+
+  <!-- Text -->
+  <text x="60" y="78" text-anchor="middle" fill="#E20074" font-family="Inter, sans-serif" font-size="8" font-weight="900" letter-spacing="1">PMI</text>
+  <text x="60" y="89" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="8" font-weight="800">AGILE FOUNDATIONS</text>
+  <text x="60" y="99" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="5.5" font-weight="600">AUTHORIZED PARTNER #4101</text>
+</svg>

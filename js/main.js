@@ -130,7 +130,39 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
-  // --- 5. COPY EMAIL TO CLIPBOARD WITH TOAST ---
+  // --- 5. CERTIFICATIONS FILTER TABS ---
+  const certTabs = document.querySelectorAll('.cert-tab-btn');
+  const certCards = document.querySelectorAll('.cert-card');
+
+  certTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      certTabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+
+      const filterCategory = tab.getAttribute('data-filter');
+
+      certCards.forEach(card => {
+        const categories = card.getAttribute('data-category') || '';
+        const match = filterCategory === 'all' || categories.split(' ').includes(filterCategory);
+        if (match) {
+          card.style.display = 'flex';
+          setTimeout(() => {
+            card.style.opacity = '1';
+            card.style.transform = 'translateY(0) scale(1)';
+          }, 10);
+        } else {
+          card.style.opacity = '0';
+          card.style.transform = 'translateY(8px) scale(0.96)';
+          setTimeout(() => {
+            card.style.display = 'none';
+          }, 200);
+        }
+      });
+    });
+  });
+
+
+  // --- 6. COPY EMAIL TO CLIPBOARD WITH TOAST ---
   const copyEmailBtns = document.querySelectorAll('.btn-email-copy');
   const toast = document.getElementById('toastNotice');
   const emailToCopy = "cassiano.moura.tech@gmail.com";

@@ -332,10 +332,19 @@
           <p class="section-description" data-i18n="certsDesc">Verified industry credentials confirming technical proficiency in cloud computing, security, database platforms, and agile delivery.</p>
         </div>
 
+        <!-- Filter Tabs for Credentials -->
+        <div class="cert-filter-row">
+          <button class="cert-tab-btn active" data-filter="all" data-i18n="certTabAll">All Credentials (9)</button>
+          <button class="cert-tab-btn" data-filter="cloud" data-i18n="certTabCloud">Cloud & Security</button>
+          <button class="cert-tab-btn" data-filter="database" data-i18n="certTabDb">Databases & SQL</button>
+          <button class="cert-tab-btn" data-filter="agile" data-i18n="certTabAgile">Agile, Jira & AI</button>
+        </div>
+
         <div class="certs-grid">
           
-          <!-- Badge 1: AWS Certified Cloud Practitioner -->
-          <div class="cert-card">
+          <!-- Card 1: AWS Certified Cloud Practitioner -->
+          <div class="cert-card" data-category="cloud">
+            <span class="cert-type-badge type-exam" data-i18n="certTypeExam">Certification Exam</span>
             <div class="cert-badge-wrapper">
               <div class="badge-glow badge-glow-aws"></div>
               <img src="assets/images/aws-certified-cloud-practitioner.png" alt="AWS Certified Cloud Practitioner Badge" class="badge-svg-icon" style="object-fit: contain;">
@@ -346,8 +355,9 @@
             <a href="https://www.credly.com/badges/df0886b8-39be-43b7-aaae-9c086261d743/public_url" target="_blank" rel="noopener" class="cert-verify-btn" data-i18n="btnVerify">Verify Credential ↗</a>
           </div>
 
-          <!-- Badge 2: Microsoft SC-900 -->
-          <div class="cert-card">
+          <!-- Card 2: Microsoft SC-900 Badge -->
+          <div class="cert-card" data-category="cloud">
+            <span class="cert-type-badge type-badge" data-i18n="certTypeBadge">Official Badge</span>
             <div class="cert-badge-wrapper">
               <div class="badge-glow badge-glow-msft"></div>
               <img src="assets/images/microsoft-sc900.svg" alt="Microsoft SC-900 Badge" class="badge-svg-icon">
@@ -358,8 +368,9 @@
             <a href="https://www.credly.com/users/cassiano-moura" target="_blank" rel="noopener" class="cert-verify-btn" data-i18n="btnVerify">Verify Credential ↗</a>
           </div>
 
-          <!-- Badge 3: Oracle Data Platform -->
-          <div class="cert-card">
+          <!-- Card 3: Oracle Data Platform Foundations -->
+          <div class="cert-card" data-category="database">
+            <span class="cert-type-badge type-exam" data-i18n="certTypeExam">Certification Exam</span>
             <div class="cert-badge-wrapper">
               <div class="badge-glow badge-glow-oracle"></div>
               <img src="assets/images/OCI25DCFAV2.png" alt="Oracle Data Platform Foundations Associate 2025 Badge" class="badge-svg-icon" style="object-fit: contain;">
@@ -370,8 +381,9 @@
             <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=95AE0DE30BC7A9FF74FDF38030C154A5FC7C955B3D1FB18473213BBF27224D84" target="_blank" rel="noopener" class="cert-verify-btn" data-i18n="btnVerify">Verify Credential ↗</a>
           </div>
 
-          <!-- Badge 4: MySQL HeatWave -->
-          <div class="cert-card">
+          <!-- Card 4: MySQL HeatWave -->
+          <div class="cert-card" data-category="database">
+            <span class="cert-type-badge type-exam" data-i18n="certTypeExam">Certification Exam</span>
             <div class="cert-badge-wrapper">
               <div class="badge-glow badge-glow-oracle"></div>
               <img src="assets/images/MYSQLHWIMPOCA.png" alt="MySQL HeatWave Implementation Certified Associate Badge" class="badge-svg-icon" style="object-fit: contain;">
@@ -382,8 +394,9 @@
             <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=8E1BDDC6C0AD5B87ACBF93E12896DCC5C1CC820DF222FC363459F5AA72D996DD" target="_blank" rel="noopener" class="cert-verify-btn" data-i18n="btnVerify">Verify Credential ↗</a>
           </div>
 
-          <!-- Badge 5: AWS re/Start & Escola da Nuvem -->
-          <div class="cert-card">
+          <!-- Card 5: AWS re/Start & Escola da Nuvem -->
+          <div class="cert-card" data-category="cloud">
+            <span class="cert-type-badge type-program" data-i18n="certTypeProgram">270h Program</span>
             <div class="cert-badge-wrapper">
               <div class="badge-glow badge-glow-green"></div>
               <img src="assets/images/aws-re-start-graduate.png" alt="AWS re/Start Graduate Badge" class="badge-svg-icon" style="object-fit: contain;">
@@ -397,8 +410,48 @@
             </div>
           </div>
 
-          <!-- Badge 6: Associate Data Analyst -->
-          <div class="cert-card">
+          <!-- Card 6: Atlassian Agile Project Management & Jira -->
+          <div class="cert-card" data-category="agile">
+            <span class="cert-type-badge type-agile" data-i18n="certTypeAgile">Atlassian & Jira</span>
+            <div class="cert-badge-wrapper">
+              <div class="badge-glow badge-glow-atl"></div>
+              <img src="assets/images/atlassian-agile.svg" alt="Atlassian Agile Project Management Badge" class="badge-svg-icon">
+            </div>
+            <h3 class="cert-title" data-i18n="cert7Title">Atlassian Agile Project Management</h3>
+            <div class="cert-issuer" style="color: #60a5fa;" data-i18n="cert7Issuer">Atlassian & LinkedIn Learning</div>
+            <p class="cert-desc" data-i18n="cert7Desc">Hands-on Jira configuration, sprint workflows, backlog grooming, SLA adherence, and agile team escalation management.</p>
+            <a href="assets/images/cert-atlassian-agile-jira.jpg" target="_blank" rel="noopener" class="cert-verify-btn" data-i18n="btnCertificate">View Certificate ↗</a>
+          </div>
+
+          <!-- Card 7: Generative AI Productivity Skills -->
+          <div class="cert-card" data-category="agile">
+            <span class="cert-type-badge type-agile" data-i18n="certTypeAi">Microsoft & AI</span>
+            <div class="cert-badge-wrapper">
+              <div class="badge-glow badge-glow-ai"></div>
+              <img src="assets/images/microsoft-ai.svg" alt="Microsoft Generative AI Badge" class="badge-svg-icon">
+            </div>
+            <h3 class="cert-title" data-i18n="cert8Title">Generative AI Productivity Skills</h3>
+            <div class="cert-issuer" style="color: #38bdf8;" data-i18n="cert8Issuer">Microsoft & LinkedIn Learning</div>
+            <p class="cert-desc" data-i18n="cert8Desc">Application of generative AI models to business productivity, automated script generation, troubleshooting, and root-cause analysis.</p>
+            <a href="assets/images/cert-microsoft-generative-ai.jpg" target="_blank" rel="noopener" class="cert-verify-btn" data-i18n="btnCertificate">View Certificate ↗</a>
+          </div>
+
+          <!-- Card 8: PMI Agile Foundations -->
+          <div class="cert-card" data-category="agile">
+            <span class="cert-type-badge type-agile" data-i18n="certTypePmi">PMI Rep #4101</span>
+            <div class="cert-badge-wrapper">
+              <div class="badge-glow badge-glow-pmi"></div>
+              <img src="assets/images/pmi-agile.svg" alt="PMI Agile Foundations Badge" class="badge-svg-icon">
+            </div>
+            <h3 class="cert-title" data-i18n="cert9Title">Agile Foundations (PMI Rep #4101)</h3>
+            <div class="cert-issuer" style="color: #c084fc;" data-i18n="cert9Issuer">Project Management Institute (PMI)</div>
+            <p class="cert-desc" data-i18n="cert9Desc">Core agile values, Scrum/Kanban ceremonies, iterative delivery cycles, and cross-functional enterprise collaboration.</p>
+            <a href="assets/images/cert-pmi-agile-foundations.jpg" target="_blank" rel="noopener" class="cert-verify-btn" data-i18n="btnCertificate">View Certificate ↗</a>
+          </div>
+
+          <!-- Card 9: Associate Data Analyst -->
+          <div class="cert-card" data-category="database">
+            <span class="cert-type-badge type-exam" data-i18n="certTypeData">Data Analytics</span>
             <div class="cert-badge-wrapper">
               <div class="badge-glow badge-glow-green"></div>
               <img src="assets/images/datacamp-analyst.svg" alt="DataCamp Associate Data Analyst Badge" class="badge-svg-icon">
@@ -432,9 +485,7 @@
               
               <!-- Left Visual Side: Architecture Diagram -->
               <div class="project-visual-side">
-                <div class="project-diagram-box">
-                  <img src="assets/images/architecture-ha-aws.svg" alt="Multi-Tier AWS High Availability Architecture Diagram" style="width: 100%; height: auto; border-radius: 8px;">
-                </div>
+                <img src="assets/images/architecture-ha-aws.svg" alt="AWS Multi-AZ Cloud Architecture Diagram" class="arch-diagram-img">
               </div>
 
               <!-- Right Content Side -->
@@ -479,11 +530,11 @@
                 </div>
 
                 <div class="project-action-row">
-                  <a href="projects/project-1-ha-aws-terraform/README.md" class="btn-project-primary" data-i18n="btnViewProjectDocs">
+                  <a href="https://github.com/cassiano-moura/cassiano-moura.github.io/blob/main/projects/project-1-ha-aws-terraform/troubleshooting-playbook.md" target="_blank" rel="noopener" class="btn-project-primary" data-i18n="btnViewProjectDocs">
                     Read Technical Runbook
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </a>
-                  <a href="https://github.com/cassiano-moura" target="_blank" rel="noopener" class="btn-project-code" data-i18n="btnViewCode">
+                  <a href="https://github.com/cassiano-moura/cassiano-moura.github.io/tree/main/projects/project-1-ha-aws-terraform" target="_blank" rel="noopener" class="btn-project-code" data-i18n="btnViewCode">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
                     View Terraform Code
                   </a>
