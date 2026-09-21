@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100%" height="100%">
+  <defs>
+    <linearGradient id="favBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9900"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+    <linearGradient id="favStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE0B2"/>
+      <stop offset="100%" stop-color="#FF9900"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#FF9900" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <!-- Rounded Squircle Badge -->
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#favBg)" stroke="url(#favStroke)" stroke-width="2" filter="url(#glow)"/>
+  
+  <!-- Modern Monogram CM -->
+  <text x="32" y="42" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" letter-spacing="-1">CM</text>
+  
+  <!-- Subtle tech dot/accent in cyan -->
+  <circle cx="51" cy="19" r="4" fill="#38BDF8" stroke="#0A0F1D" stroke-width="1.5"/>
+</svg>
