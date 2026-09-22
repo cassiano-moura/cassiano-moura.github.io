@@ -6,7 +6,7 @@
 [![Tier 2/3 Support](https://img.shields.io/badge/Engineering-Cloud_Support_%26_RCA-10B981.svg)](troubleshooting-playbook.md)
 [![Cost](https://img.shields.io/badge/AWS_Cost-$0_Free_Tier-success.svg)](#zero-cost--free-tier-deployment)
 
-**Author:** [Cassiano Moura](https://linkedin.com/in/cassianomoura)  
+**Author:** [Cassiano Moura](https://linkedin.com/in/cassianomoura-tech)  
 **Specialization:** Cloud Support Associate & Enterprise Technical Support Engineer (Tier 2/3)  
 **Portfolio:** [https://cassianomoura.github.io](https://cassianomoura.github.io)
 
@@ -163,5 +163,5 @@ project-1-ha-aws-terraform/
 **Cassiano Moura**  
 *Cloud Support Associate & Enterprise Technical Support Engineer*  
 * Email: [cassiano.moura.tech@gmail.com](mailto:cassiano.moura.tech@gmail.com)  
-* LinkedIn: [linkedin.com/in/cassianomoura](https://linkedin.com/in/cassianomoura)  
+* LinkedIn: [linkedin.com/in/cassianomoura-tech](https://linkedin.com/in/cassianomoura-tech)  
 * GitHub: [github.com/cassianomoura](https://github.com/cassianomoura)

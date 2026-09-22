@@ -6,7 +6,7 @@
 [![Terraform](https://img.shields.io/badge/IaC-Terraform-623CE4.svg?logo=terraform&logoColor=white)](https://www.terraform.io/)
 [![CloudOps](https://img.shields.io/badge/CloudOps-Auto--Remediation-10B981.svg)](#remediation-workflow)
 
-**Author:** [Cassiano Moura](https://linkedin.com/in/cassianomoura)  
+**Author:** [Cassiano Moura](https://linkedin.com/in/cassianomoura-tech)  
 **Specialization:** Cloud Support Associate & Cloud Operations Engineer  
 **Portfolio:** [https://cassiano-moura.github.io/](https://cassiano-moura.github.io/)
 
@@ -116,4 +116,4 @@ terraform plan
 **Cassiano Moura**  
 *Cloud Support Associate & Enterprise Technical Support Engineer*  
 * Email: [cassiano.moura.tech@gmail.com](mailto:cassiano.moura.tech@gmail.com)  
-* LinkedIn: [linkedin.com/in/cassianomoura](https://linkedin.com/in/cassianomoura)
+* LinkedIn: [linkedin.com/in/cassianomoura-tech](https://linkedin.com/in/cassianomoura-tech)

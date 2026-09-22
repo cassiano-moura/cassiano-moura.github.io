@@ -32,5 +32,5 @@ Professional with **5+ years of multinational enterprise experience** (SAP Ariba
 ## 📬 Contact & Connect
 
 * **Website:** [https://cassiano-moura.github.io](https://cassiano-moura.github.io)
-* **LinkedIn:** [linkedin.com/in/cassianomoura](https://linkedin.com/in/cassianomoura)
+* **LinkedIn:** [linkedin.com/in/cassianomoura-tech](https://linkedin.com/in/cassianomoura-tech)
 * **Email:** [cassiano.moura.tech@gmail.com](mailto:cassiano.moura.tech@gmail.com)
