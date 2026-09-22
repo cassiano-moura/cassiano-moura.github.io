@@ -29,6 +29,7 @@ const translations = {
     terminalTitle: "engineer_profile.json",
     termRole: "Cloud Support & Enterprise Tier 2/3 Engineer",
     termCert: "AWS Certified Cloud Practitioner (CLF-C02)",
+    termUgLeader: "AWS User Group Leader (Canoas)",
     termMultilingual: "EN (C1 Fluent), ES (B2), PT (Native)",
     termImpact: "MTTR -20% | CSAT 92% | RCA & Zero-Trust",
 
@@ -121,6 +122,16 @@ const translations = {
     cert9Title: "Agile Foundations (PMI Rep #4101)",
     cert9Issuer: "Project Management Institute (PMI)",
     cert9Desc: "Core agile values, Scrum/Kanban ceremonies, iterative delivery cycles, and cross-functional enterprise collaboration.",
+
+    // AWS User Group Community Leadership
+    awsUgHeroPill: "AWS User Group Leader • Canoas",
+    awsUgLeaderBadge: "Official Community Leadership",
+    awsUgLeaderRole: "Community Leader",
+    awsUgLeaderTitle: "AWS User Group Leader Canoas",
+    awsUgLeaderDesc: "Leading and organizing technical meetups, cloud architecture workshops, and fostering the AWS cloud community ecosystem.",
+    awsUgLeaderRegion: "Canoas & Porto Alegre Metro Area, Brazil",
+    awsUgLeaderAction: "Join the Community",
+    awsUgViewBadge: "Official AWS Badge (SVG) ↗",
 
     // Projects Section
     projectsTag: "Practical Implementations",
@@ -223,6 +234,7 @@ const translations = {
     terminalTitle: "perfil_engenheiro.json",
     termRole: "Cloud Support & Engenheiro Suporte N2/N3",
     termCert: "AWS Certified Cloud Practitioner (CLF-C02)",
+    termUgLeader: "AWS User Group Leader (Canoas)",
     termMultilingual: "Inglês (C1 Fluente), Espanhol (B2), Português (Nativo)",
     termImpact: "MTTR -20% | CSAT 92% | RCA & Zero-Trust",
 
@@ -315,6 +327,16 @@ const translations = {
     cert9Title: "Agile Foundations (PMI Rep #4101)",
     cert9Issuer: "Project Management Institute (PMI)",
     cert9Desc: "Fundamentos ágeis, cerimônias de Scrum/Kanban, entregas iterativas e governança colaborativa corporativa.",
+
+    // AWS User Group Community Leadership
+    awsUgHeroPill: "Líder Oficial AWS User Group Canoas",
+    awsUgLeaderBadge: "Liderança Oficial de Comunidade AWS",
+    awsUgLeaderRole: "AWS User Group Leader",
+    awsUgLeaderTitle: "Líder de Comunidade AWS User Group Canoas",
+    awsUgLeaderDesc: "Liderança e organização de meetups técnicos, workshops de arquitetura cloud e fomento ao ecossistema de nuvem AWS na região metropolitana de Porto Alegre.",
+    awsUgLeaderRegion: "Canoas & Região Metropolitana de Porto Alegre (RS)",
+    awsUgLeaderAction: "Conectar na Comunidade",
+    awsUgViewBadge: "Ver Badge Oficial (SVG) ↗",
 
     // Projects Section
     projectsTag: "Projetos Práticos",
@@ -417,6 +439,7 @@ const translations = {
     terminalTitle: "perfil_ingeniero.json",
     termRole: "Cloud Support & Ingeniero Soporte N2/N3",
     termCert: "AWS Certified Cloud Practitioner (CLF-C02)",
+    termUgLeader: "AWS User Group Leader (Canoas)",
     termMultilingual: "Inglés (C1 Fluido), Español (B2), Portugués (Nativo)",
     termImpact: "MTTR -20% | CSAT 92% | RCA & Zero-Trust",
 
@@ -510,6 +533,16 @@ const translations = {
     cert9Title: "Agile Foundations (PMI Rep #4101)",
     cert9Issuer: "Project Management Institute (PMI)",
     cert9Desc: "Fundamentos ágeis, ceremonias de Scrum/Kanban, ciclos de entrega iterativos y colaboración técnica en entornos enterprise.",
+
+    // AWS User Group Community Leadership
+    awsUgHeroPill: "Líder Oficial AWS User Group Canoas",
+    awsUgLeaderBadge: "Liderazgo Oficial de Comunidad AWS",
+    awsUgLeaderRole: "AWS User Group Leader",
+    awsUgLeaderTitle: "Líder de Comunidad AWS User Group Canoas",
+    awsUgLeaderDesc: "Liderazgo y organización de meetups técnicos, talleres de arquitectura cloud y fortalecimiento del ecosistema AWS.",
+    awsUgLeaderRegion: "Canoas y Región Metropolitana de Porto Alegre, Brasil",
+    awsUgLeaderAction: "Unirse a la Comunidad",
+    awsUgViewBadge: "Ver Badge Oficial (SVG) ↗",
 
     // Projects Section
     projectsTag: "Proyectos Prácticos",

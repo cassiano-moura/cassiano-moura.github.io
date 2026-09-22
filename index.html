@@ -26,7 +26,7 @@
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="css/style.css?v=2.5">
+  <link rel="stylesheet" href="css/style.css?v=2.6">
 </head>
 <body>
 
@@ -85,9 +85,15 @@
           
           <!-- Hero Left Column -->
           <div class="hero-content">
-            <div class="hero-badge-status">
-              <span class="pulse-dot"></span>
-              <span data-i18n="heroStatus">Available for Remote Worldwide (USD/EUR) & Brazil / Hybrid POA</span>
+            <div class="hero-status-row">
+              <div class="hero-badge-status">
+                <span class="pulse-dot"></span>
+                <span data-i18n="heroStatus">Available for Remote Worldwide (USD/EUR) & Brazil / Hybrid POA</span>
+              </div>
+              <a href="#certifications" class="hero-ug-pill" title="AWS User Group Leader Canoas">
+                <img src="assets/images/Usergroups-badges_leader-dark.svg" alt="AWS User Group Leader Badge" class="hero-ug-icon">
+                <span data-i18n="awsUgHeroPill">AWS User Group Leader • Canoas</span>
+              </a>
             </div>
 
             <h1 class="hero-title">
@@ -152,6 +158,7 @@
                 <div class="t-output">
                   {<br>
                   &nbsp;&nbsp;<span class="t-cmd">"name"</span>: <strong style="color: #fff;">"Cassiano Moura"</strong>,<br>
+                  &nbsp;&nbsp;<span class="t-cmd">"community_role"</span>: <span style="color: #c084fc; font-weight: 600;" data-i18n="termUgLeader">"AWS User Group Leader (Canoas)"</span>,<br>
                   &nbsp;&nbsp;<span class="t-cmd">"specialization"</span>: <span class="t-highlight-aws" data-i18n="termRole">"Cloud Support & Enterprise Tier 2/3 Engineer"</span>,<br>
                   &nbsp;&nbsp;<span class="t-cmd">"cloud_certification"</span>: <span class="t-highlight-aws" data-i18n="termCert">"AWS Certified Cloud Practitioner (CLF-C02)"</span>,<br>
                   &nbsp;&nbsp;<span class="t-cmd">"languages"</span>: <span class="t-highlight-green" data-i18n="termMultilingual">"EN (C1 Fluent), ES (B2), PT (Native)"</span>,<br>
@@ -333,6 +340,55 @@
           <div class="section-tag tag-aws" data-i18n="certsTag">Validated Credentials</div>
           <h2 class="section-title" data-i18n="certsTitle">Official Certifications & Industry Badges</h2>
           <p class="section-description" data-i18n="certsDesc">Verified industry credentials confirming technical proficiency in cloud computing, security, database platforms, and agile delivery.</p>
+        </div>
+
+        <!-- AWS USER GROUP LEADER SPOTLIGHT CARD -->
+        <div class="aws-ug-spotlight-card">
+          <div class="ug-badge-col">
+            <div class="ug-badge-glow"></div>
+            <img src="assets/images/Usergroups-badges_leader-dark.svg" alt="Official AWS User Group Leader Badge" class="ug-badge-img">
+            <div class="ug-badge-tag-pill">
+              <span class="pulse-dot-purple"></span>
+              <span data-i18n="awsUgLeaderBadge">Official Community Leadership</span>
+            </div>
+          </div>
+          <div class="ug-content-col">
+            <div class="ug-header-row">
+              <span class="ug-role-badge" data-i18n="awsUgLeaderRole">Community Leader</span>
+              <span class="ug-location-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span data-i18n="awsUgLeaderRegion">Canoas & Porto Alegre Metro Area, Brazil</span>
+              </span>
+            </div>
+            <h3 class="ug-title" data-i18n="awsUgLeaderTitle">AWS User Group Leader Canoas</h3>
+            <p class="ug-desc" data-i18n="awsUgLeaderDesc">Leading and organizing technical meetups, cloud architecture workshops, and fostering the AWS cloud community ecosystem.</p>
+            
+            <div class="ug-highlights-row">
+              <span class="ug-chip">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                Meetups & Hands-on Labs
+              </span>
+              <span class="ug-chip">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
+                Well-Architected & CloudOps
+              </span>
+              <span class="ug-chip">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                Amazon Web Services Community
+              </span>
+            </div>
+
+            <div class="ug-actions-row">
+              <a href="https://linkedin.com/in/cassianomoura" target="_blank" rel="noopener" class="ug-btn-primary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                <span data-i18n="awsUgLeaderAction">Join the Community</span>
+              </a>
+              <a href="assets/images/Usergroups-badges_leader-dark.svg" target="_blank" rel="noopener" class="ug-btn-secondary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                <span data-i18n="awsUgViewBadge">Official AWS Badge (SVG) ↗</span>
+              </a>
+            </div>
+          </div>
         </div>
 
         <!-- Filter Tabs for Credentials -->
