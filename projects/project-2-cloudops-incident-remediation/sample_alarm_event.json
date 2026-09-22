@@ -1,0 +1,11 @@
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "Sns": {
+        "Subject": "ALARM: \"High-CPU-Utilization-Production\" in US East (N. Virginia)",
+        "Message": "{\"AlarmName\":\"High-CPU-Utilization-Production\",\"AlarmDescription\":\"Triggers when EC2 instance CPU exceeds 85% for 2 consecutive periods.\",\"NewStateValue\":\"ALARM\",\"NewStateReason\":\"Threshold Crossed: 2 out of 2 datapoints [89.4%, 92.1%] were greater than the threshold (85.0%).\",\"Trigger\":{\"MetricName\":\"CPUUtilization\",\"Namespace\":\"AWS/EC2\",\"Dimensions\":[{\"name\":\"InstanceId\",\"value\":\"i-0987654321fedcba0\"}]}}"
+      }
+    }
+  ]
+}
