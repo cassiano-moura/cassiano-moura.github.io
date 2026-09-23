@@ -22,3 +22,11 @@ Thumbs.db
 
 # Internal Candidate Raw Notes
 termos_busca.txt
+
+# Content Engine & Python runtime
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+content-engine/__pycache__/
+content-engine/.env

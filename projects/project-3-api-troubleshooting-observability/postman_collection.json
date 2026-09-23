@@ -1,0 +1,133 @@
+{
+  "info": {
+    "name": "Enterprise API Troubleshooting & Observability Suite",
+    "description": "Postman collection simulating production traffic, payload validation errors (400), authentication failures (401), not found (404), server exceptions (500), and gateway timeouts (504).",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1. Health Check (Expect 200 OK)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/v1/health",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "v1", "health"]
+        }
+      }
+    },
+    {
+      "name": "2. Get Orders (Expect 200 OK)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/v1/orders",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "v1", "orders"]
+        }
+      }
+    },
+    {
+      "name": "3. Create Order - Valid (Expect 201 Created)",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"customer_id\": \"CUST-8491\",\n  \"items\": [{\"sku\": \"AWS-CLF\", \"qty\": 1}]\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/v1/orders",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "v1", "orders"]
+        }
+      }
+    },
+    {
+      "name": "4. Create Order - Missing customer_id (Expect 400 Bad Request)",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"items\": [{\"sku\": \"AWS-CLF\", \"qty\": 1}]\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/v1/orders",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "v1", "orders"]
+        }
+      }
+    },
+    {
+      "name": "5. Secure Data - Missing Token (Expect 401 Unauthorized)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/v1/secure/data",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "v1", "secure", "data"]
+        }
+      }
+    },
+    {
+      "name": "6. Non-Existent Route (Expect 404 Not Found)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/v1/unknown-endpoint",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "v1", "unknown-endpoint"]
+        }
+      }
+    },
+    {
+      "name": "7. System Crash Simulation (Expect 500 Internal Server Error)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/v1/system/crash-simulation",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "v1", "system", "crash-simulation"]
+        }
+      }
+    },
+    {
+      "name": "8. Gateway Timeout Simulation (Expect 504 Gateway Timeout)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/v1/checkout/timeout-simulation",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "v1", "checkout", "timeout-simulation"]
+        }
+      }
+    }
+  ]
+}

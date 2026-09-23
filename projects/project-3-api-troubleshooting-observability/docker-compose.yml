@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  # 1. Microservice API emitting structured logs
+  order-api:
+    build: .
+    container_name: order-management-api
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # 2. Grafana Dashboard for Metrics & Logs Visualization
+  grafana:
+    image: grafana/grafana:latest
+    container_name: observability-grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_USERS_ALLOW_SIGN_UP=false
+    volumes:
+      - grafana_data:/var/lib/grafana
+    restart: unless-stopped
+
+volumes:
+  grafana_data:
