@@ -1,6 +1,7 @@
 # Cassiano Moura | Technical Portfolio
 
 [![GitHub Pages](https://img.shields.io/badge/Live_Portfolio-cassiano--moura.github.io-38BDF8.svg?logo=githubpages&logoColor=white)](https://cassiano-moura.github.io)
+[![Uptime & Observability](https://img.shields.io/badge/Uptime-Synthetic_Monitoring-10B981.svg?logo=statuspage&logoColor=white)](docs/uptime-log.md)
 [![AWS Certified](https://img.shields.io/badge/AWS-Certified_Cloud_Practitioner-FF9900.svg?logo=amazon-aws&logoColor=white)](https://www.credly.com/users/cassiano-moura)
 [![Microsoft SC-900](https://img.shields.io/badge/Microsoft-SC--900_Badge-0078D4.svg?logo=microsoft-azure&logoColor=white)](https://www.credly.com/users/cassiano-moura)
 [![Languages](https://img.shields.io/badge/Languages-EN_(C1_IELTS)_%7C_ES_(B2)_%7C_PT-10B981.svg)](#trilingual-proficiency)

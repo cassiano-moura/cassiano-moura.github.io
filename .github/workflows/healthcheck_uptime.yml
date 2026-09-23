@@ -1,0 +1,38 @@
+name: SRE Automated Uptime & Health Check
+
+on:
+  schedule:
+    # Runs at 12:00 UTC (09:00 BRT) on Monday, Wednesday, Friday
+    - cron: '0 12 * * 1,3,5'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  healthcheck:
+    name: Synthetic Health Check & Observability Log
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Execute Synthetic Health Check
+        run: python scripts/healthcheck.py
+
+      - name: Commit & Push Observability Metrics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/uptime-log.md docs/uptime-metrics.json
+          if git diff --staged --quiet; then
+            echo "No changes in uptime metrics."
+          else
+            git commit -m "chore(observability): automated uptime & health check [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+            git push
+          fi
