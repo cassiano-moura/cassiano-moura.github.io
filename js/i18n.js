@@ -157,6 +157,10 @@ const translations = {
     pProj3Title: "API Troubleshooting & Observability Platform",
     pProj3Desc: "Microservice structured JSON logging environment with Postman test traffic suites and Splunk / Grafana dashboards monitoring real-time 4xx client errors and 5xx server failure rates.",
 
+    pProj4Tag: "Zero-Trust & Cloud Security",
+    pProj4Title: "Zero-Trust Remote Access & Identity Governance",
+    pProj4Desc: "Elimination of public SSH (Port 22) across private compute instances using AWS Systems Manager Session Manager, encrypted S3 session audit trails, and Microsoft Entra ID (Azure AD) federation.",
+
     // Experience Section
     expTag: "Career History",
     expTitle: "Enterprise Corporate Track Record",
@@ -362,6 +366,10 @@ const translations = {
     pProj3Title: "Troubleshooting de APIs e Observabilidade",
     pProj3Desc: "Estruturação de logs de microsserviços em JSON enviados para análise, suíte de tráfego de testes no Postman e dashboards no Splunk / Grafana com métricas de erros 4xx e 5xx.",
 
+    pProj4Tag: "Segurança Cloud & Zero-Trust",
+    pProj4Title: "Acesso Remoto Zero-Trust & Governança de Identidade",
+    pProj4Desc: "Eliminação total da porta 22 (SSH) pública via AWS Systems Manager Session Manager, gravação criptografada de auditoria no Amazon S3 (KMS) e federação com Microsoft Entra ID (Azure AD).",
+
     // Experience Section
     expTag: "Experiência Profissional",
     expTitle: "Histórico Corporativo em Multinacionais",
@@ -566,7 +574,11 @@ const translations = {
     
     pProj3Tag: "Soporte de APIs y Observabilidad",
     pProj3Title: "Troubleshooting de APIs y Observabilidad",
-    pProj3Desc: "Estructuración de logs de microservicios en JSON, colección Postman de simulación de tráfico y paneles en Splunk / Grafana con métricas de errores 4xx y 5xx.",
+    pProj3Desc: "Estructuración de logs de microservicios en JSON, colección Postman de simulación de tráfico y paneles en Splunk / Grafana con métricas de errores 4xx e 5xx.",
+
+    pProj4Tag: "Seguridad Cloud y Zero-Trust",
+    pProj4Title: "Acceso Remoto Zero-Trust y Gobernanza de Identidad",
+    pProj4Desc: "Eliminación de la puerta 22 (SSH) pública mediante AWS Systems Manager Session Manager, auditoría cifrada en Amazon S3 (KMS) y federación corporativa con Microsoft Entra ID (Azure AD).",
 
     // Experience Section
     expTag: "Experiencia Profesional",

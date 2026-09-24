@@ -1,4 +1,4 @@
-# Cassiano Moura | Technical Portfolio
+                                                                                                                                      # Cassiano Moura | Technical Portfolio
 
 [![GitHub Pages](https://img.shields.io/badge/Live_Portfolio-cassiano--moura.github.io-38BDF8.svg?logo=githubpages&logoColor=white)](https://cassiano-moura.github.io)
 [![Uptime & Observability](https://img.shields.io/badge/Uptime-Synthetic_Monitoring-10B981.svg?logo=statuspage&logoColor=white)](docs/uptime-log.md)
@@ -27,6 +27,8 @@ Professional with **5+ years of multinational enterprise experience** (SAP Ariba
   *Automated CloudWatch CPU/Disk alarms triggering Amazon SNS and AWS Lambda (Python) for automated service remediation and incident dispatch.*
 * **[3. API Troubleshooting & Observability Platform](projects/project-3-api-troubleshooting-observability/)**  
   *Microservice emitting structured JSON logs with Postman traffic suites and Splunk (SPL) / Grafana dashboards for 4xx/5xx error analytics.*
+* **[4. Zero-Trust Enterprise Remote Access & Identity Governance](projects/project-4-zero-trust-cloud-access/)**  
+  *Elimination of public SSH (Port 22) across private compute instances using AWS Systems Manager Session Manager, encrypted S3 session audit trails, and Microsoft Entra ID (Azure AD) federation.*
 
 ---
 
