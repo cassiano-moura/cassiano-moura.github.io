@@ -9,9 +9,9 @@
 | :--- | :--- | :--- |
 | **Service Status** | `OPERATIONAL` | 🟢 |
 | **HTTP Status Code** | `200` | OK |
-| **Response Latency** | `113.33 ms` | Optimal |
-| **SSL Certificate Expiry** | `33 days remaining` | 🔒 |
-| **Last Inspection** | `28/09/2026 16:24:05 BRT` (`2026-09-28 19:24:05 UTC`) | Checked |
+| **Response Latency** | `98.11 ms` | Optimal |
+| **SSL Certificate Expiry** | `31 days remaining` | 🔒 |
+| **Last Inspection** | `30/09/2026 14:46:03 BRT` (`2026-09-30 17:46:03 UTC`) | Checked |
 
 ---
 
@@ -19,6 +19,7 @@
 
 | Date / Time (BRT) | Status | Code | Latency | SSL Remaining |
 | :--- | :---: | :---: | :---: | :---: |
+| 30/09/2026 14:46:03 BRT | 🟢 `OPERATIONAL` | `200` | `98.11 ms` | `31 days` |
 | 28/09/2026 16:24:05 BRT | 🟢 `OPERATIONAL` | `200` | `113.33 ms` | `33 days` |
 | 25/09/2026 13:49:08 BRT | 🟢 `OPERATIONAL` | `200` | `94.03 ms` | `36 days` |
 | 23/09/2026 10:45:18 BRT | 🟢 `OPERATIONAL` | `200` | `355.4 ms` | `38 days` |
