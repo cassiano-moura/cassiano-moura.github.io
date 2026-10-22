@@ -161,6 +161,10 @@ const translations = {
     pProj4Title: "Zero-Trust Remote Access & Identity Governance",
     pProj4Desc: "Elimination of public SSH (Port 22) across private compute instances using AWS Systems Manager Session Manager, encrypted S3 session audit trails, and Microsoft Entra ID (Azure AD) federation.",
 
+    pProj5Tag: "Multi-Cloud Ops & Incident Center",
+    pProj5Title: "Multi-Cloud NOC & Sustentation Center (AWS • OCI • Azure)",
+    pProj5Desc: "24/7 mission-critical operations framework featuring synthetic Python health probes, P1/P2 runbooks (disk saturation, ALB 502/504, backup failures), ITIL GMUD change management with rollback, and Freshservice shift handovers.",
+
     // Experience Section
     expTag: "Career History",
     expTitle: "Enterprise Corporate Track Record",
@@ -369,6 +373,10 @@ const translations = {
     pProj4Tag: "Segurança Cloud & Zero-Trust",
     pProj4Title: "Acesso Remoto Zero-Trust & Governança de Identidade",
     pProj4Desc: "Eliminação total da porta 22 (SSH) pública via AWS Systems Manager Session Manager, gravação criptografada de auditoria no Amazon S3 (KMS) e federação com Microsoft Entra ID (Azure AD).",
+
+    pProj5Tag: "Operações Multi-Cloud & NOC",
+    pProj5Title: "Centro de Operações & Incidentes Multi-Cloud (AWS • OCI • Azure)",
+    pProj5Desc: "Framework de sustentação para turno noturno e operações 24/7 com sondas sintéticas em Python, runbooks de incidentes P1/P2 (disco/inodes, ALB 502/504, falhas de backup Commvault/AWS), GMUD (ITIL v4) com rollback e passagem de turno no Freshservice.",
 
     // Experience Section
     expTag: "Experiência Profissional",
@@ -579,6 +587,10 @@ const translations = {
     pProj4Tag: "Seguridad Cloud y Zero-Trust",
     pProj4Title: "Acceso Remoto Zero-Trust y Gobernanza de Identidad",
     pProj4Desc: "Eliminación de la puerta 22 (SSH) pública mediante AWS Systems Manager Session Manager, auditoría cifrada en Amazon S3 (KMS) y federación corporativa con Microsoft Entra ID (Azure AD).",
+
+    pProj5Tag: "Operaciones Multi-Cloud y NOC",
+    pProj5Title: "Centro de Operaciones e Incidentes Multi-Cloud (AWS • OCI • Azure)",
+    pProj5Desc: "Framework de soporte para turno nocturno y operaciones 24/7 con sondas sintéticas en Python, runbooks de incidentes P1/P2 (disco, ALB 502/504, fallos de backup Commvault/AWS), GMUD (ITIL v4) con rollback y cambio de turno en Freshservice.",
 
     // Experience Section
     expTag: "Experiencia Profesional",
