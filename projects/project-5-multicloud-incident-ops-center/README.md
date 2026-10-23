@@ -117,6 +117,11 @@ Summary: 6 targets scanned | 6 HEALTHY | 0 DEGRADED | 0 CRITICAL
 python scripts/multicloud_healthcheck.py --json
 ```
 
+### Running Automated Test Suite:
+```bash
+python -m unittest tests/test_healthcheck.py
+```
+
 ---
 
 ## 5. Enterprise Runbooks (Standard Operating Procedures)
