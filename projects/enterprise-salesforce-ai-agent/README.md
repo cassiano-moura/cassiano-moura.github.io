@@ -48,7 +48,7 @@ graph TD
 ## 2. Directory Structure
 
 ```bash
-project-6-enterprise-salesforce-ai-agent/
+enterprise-salesforce-ai-agent/
 ├── app/
 │   ├── api/
 │   │   └── v1/
