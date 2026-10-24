@@ -57,20 +57,21 @@ class EnterpriseSupportAgent:
         ]
 
     async def _query_kb_rag(self, query: str) -> Dict[str, Any]:
-        """Internal RAG Knowledge Base retriever simulation."""
-        kb_articles = {
-            "502": {
-                "title": "Runbook: Troubleshooting Application Load Balancer HTTP 502 Bad Gateway",
-                "summary": "HTTP 502 indicates the load balancer failed to receive a valid response from backend targets. 1) Check target health status in AWS Console; 2) Inspect backend logs for connection resets or OOM killer events; 3) Verify keep-alive timeout is greater than client timeout."
-            },
-            "disk": {
-                "title": "Runbook: Linux Volume Saturation & Disk Space Triage (>90%)",
-                "summary": "1) Run df -hT to isolate partition; 2) Check for open unlinked file descriptors via lsof +L1; 3) Truncate log files or request EBS volume expansion via GMUD change request."
+        """Queries enterprise vector knowledge base using semantic term similarity."""
+        from app.services.vector_retriever import VectorKnowledgeRetriever
+        retriever = VectorKnowledgeRetriever()
+        results = retriever.search(query, top_k=1)
+        if results:
+            doc, score = results[0]
+            return {
+                "found": True,
+                "score": score,
+                "article": {
+                    "id": doc["id"],
+                    "title": doc["title"],
+                    "summary": doc["content"]
+                }
             }
-        }
-        for k, v in kb_articles.items():
-            if k in query.lower():
-                return {"found": True, "article": v}
         return {"found": False, "article": None}
 
     async def process_chat(self, req: ChatRequest) -> ChatResponse:
