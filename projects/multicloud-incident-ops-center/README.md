@@ -69,7 +69,7 @@ graph TD
 ## 3. Project Structure & Deliverables
 
 ```text
-projects/project-5-multicloud-incident-ops-center/
+projects/multicloud-incident-ops-center/
 ├── README.md                                   # Comprehensive operational architecture
 ├── scripts/
 │   └── multicloud_healthcheck.py               # Multi-cloud synthetic health check engine
