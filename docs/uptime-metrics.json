@@ -1,20 +1,30 @@
 {
   "last_check": {
-    "timestamp_utc": "2026-11-11 19:22:26 UTC",
-    "timestamp_brt": "11/11/2026 16:22:26 BRT",
+    "timestamp_utc": "2026-11-13 19:21:56 UTC",
+    "timestamp_brt": "13/11/2026 16:21:56 BRT",
     "target_url": "https://cassiano-moura.github.io/",
     "status_code": 200,
     "status_text": "OPERATIONAL",
-    "latency_ms": 193.44,
-    "ssl_days_remaining": 48,
+    "latency_ms": 157.91,
+    "ssl_days_remaining": 46,
     "error": null
   },
   "summary": {
     "uptime_target": "99.9%",
     "monitored_endpoint": "https://cassiano-moura.github.io/",
-    "total_checks_recorded": 21
+    "total_checks_recorded": 22
   },
   "history": [
+    {
+      "timestamp_utc": "2026-11-13 19:21:56 UTC",
+      "timestamp_brt": "13/11/2026 16:21:56 BRT",
+      "target_url": "https://cassiano-moura.github.io/",
+      "status_code": 200,
+      "status_text": "OPERATIONAL",
+      "latency_ms": 157.91,
+      "ssl_days_remaining": 46,
+      "error": null
+    },
     {
       "timestamp_utc": "2026-11-11 19:22:26 UTC",
       "timestamp_brt": "11/11/2026 16:22:26 BRT",
